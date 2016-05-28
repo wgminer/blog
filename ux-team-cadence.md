@@ -1,6 +1,6 @@
 # Cadence of a Design Team
 
-I've found that consistency and predictability are hugely important aspects of managing a healthy team. On the UX team at 2U we have several recurring activities that structure our work. In this article I detail each of them.
+I've found that consistency and predictability are hugely important aspects of managing a healthy team. On the UX team at 2U we have several recurring activities that punctuate our time at work. In this article, I'll detail each of them.
 
 ## Things we do
 Currently, (21-04-2016) we have four activities 
@@ -19,10 +19,23 @@ If you've work on an Agile team before you probably already know what this is. F
 - *Be on time* Standup is so short that being 5 minutes late can double the length of the meeting. Build a culture of being on time, every time. Also, if necessary start without tardy folks.  
 
 ### Chapter (Weekly)
+The idea for this meeting is lovingly stolen from Spotify and their Pod, Chapter, and Guild team structure. I've never worked at Spotify so I don't know exactly how it works there but at 2U, Chapter is a ~90-120 minute meeting we have once a week where we discuss our practice as designers, the larger industry, and our place in the company.
+
+#### Why we do it
+1. You need time to have a really great discussion. Our stand-up is keep intentionally terse so to balance it, we created chapter.
+3. It's a forum to have meta conversations about team process and strategy. As a creatively new group at 2U, we're still working on
+4. Chapter creates a consistent place to announce (and then discuss) major events. Recently, our department merged with another one. Chapter was the perfect place to both announce it and then have a through discussion about what I meant for us. 
+5. Often, the only other person who can empathize with you as a designer is another designer. Chapter is a safe space for the team to vent and share advice. For me as a new manager, this is a boon because there's a _ton_ of things I've never dealt with before and situations I don't have a good solution to.
+6. Finally, as with stand-up, Chapter brings the team together and maintains our sense of cohesion. 
+
+#### Keys to success
+- *Keep an agenda* Time is valuable and devoting over an hour to a non-design/coding activity gets expensive. Make sure there is a clear organizer to the meeting and try to always have a loose agenda to follow. Typically I send out a "call for topics" email the two days before the meeting. 
+- *Don't be afraid to cut it short* Some weeks there really isn't anything to talk about. Don't be afraid to cancel the meeting
 
 ### Design Review (Bi-Weekly)
 
 ### Team Lunch (Monthly)
+This one should be pretty self-explanatory. Food is awesome. Free food is even better. We have a team lunch to engage with each other on a personal level. We intentionally don't set an agenda for this and just let some organic discussion occur. Let time I think we talked about 
 
 ### UX State of the Union (Twice a year)
 
