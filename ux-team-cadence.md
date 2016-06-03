@@ -34,6 +34,18 @@ The idea for this meeting is lovingly stolen from Spotify and their Pod, Chapter
 
 ### Design Review (Bi-Weekly)
 
+Design Review
+
+Setup (5 min)
+- Define experience
+- Users of design
+- Goals of design
+
+Presentation by designer
+- People take notes
+
+Feedback discussion
+
 ### Team Lunch (Monthly)
 This one should be pretty self-explanatory. Food is awesome. Free food is even better. We have a team lunch to engage with each other on a personal level. We intentionally don't set an agenda for this and just let some organic discussion occur. Let time I think we talked about 
 

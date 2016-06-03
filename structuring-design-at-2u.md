@@ -13,16 +13,14 @@ Now that that's out of the way let's get into it.
 
 # Some background on the company
 
-It's said that design without constraints is just art. In the same way , talking about how you manage a team without talking about the "constraints" of your organization is something totally different.
-
-2U was founded in 2008 and has three main offices. For the purposes of this article all you need to know is that all of the engineering and product development occur in NYC. We have designer to developer ratio of about 4:1 and each product team has it's own product manager and business analyst.
+2U was founded in 2008 and has three main offices. For the purposes of this article what you need to know is that all of the engineering and product development occur in NYC. We have a designer to developer ratio of about 4:1 and each product team has it's own product manager and business analyst. The UX team has only existed for about 2.5 years and I've been running it for a little over two of those. 
 
 
 ## Who does what
 
-One of the most important parts of structuring a team is answering the question: "who does what". When I took over the team, we operated as a UXaaS team. That is to say, product managers would come to us and request design resources on an as-needed basis. We operated independently of the the developer sprints and sat together in our own little UX niche. This arrangement lasted for about two years but failed in the end.
+One of the most important parts of structuring a team is answering the question: "who does what". When I took over the team, we operated as a _UX As A Service_ team. That is to say, product managers would come to us and request design resources on an as-needed basis. We operated independently of the the development sprints and sat together in our beautifully appointed UX niche. This arrangement lasted for about 18 months but ultimately failed.
 
-Recently, we've switched to having designers assigned to an individual product team. Taking cues from Spotify's organizational structure, each  team in Tech Dev operates like its own mini startup. These teams will consist of 4-5 Engineers, a product manager, a business analyst, and 1-2 designers. The whole team is physically close to each other within the office, and they spend the majority of the time interacting internally.
+Learning from our mistakes, we've switched to having designers assigned to an individual product team. Taking borrowing heavily from Spotify's organizational structure, each  team operates like its own mini-startup. Each team typically consists of 4-5 Engineers, 1-2 designers, a product manager, and a business analyst. Ideally, the whole team is seated within earshot of each other, and the team spends the majority of the time working and meeting amongst themselves.
 
 
 ### Why this arrangement works for us
@@ -58,8 +56,12 @@ This is still a hard question for me but something many new managers struggle wi
 
 I'm still not settled on the topic, but I have landed on a few things: 
 
-1. Building and _maintaining_ a kickass team is top priority. Your value to the company is that you can keep these fickle bunch of "creative types" happy and coming to work everyday. 
+First, building and _maintaining_ a kickass team is the top priority. Your value to the company is that you can keep these fickle bunch of "creative types" happy and coming to work everyday. 
 
-2. You evangelize for design in the company. I know _evangelize_ is one of those lame consultant-speak words, but someone has to stick up for good design and the user's experience.
+Second, you're responsible for evangelizing good design within the company. That may sound like lame consultant-speak, but someone has to stick up for good design and the user's experience.
 
-3. There will always be cross-product work to scratch your creative itch. Even though most of the design work exists on the product level, frequently, a project will span several teams. As the director who sees across everything, you're uniquely suited to handling these types of tasks.
+Third, there will always be cross-product work to scratch your creative itch. Even though most of the design work exists on the product level, frequently, a project will span several teams. As the director who sees across everything, you're uniquely suited to handling these types of tasks.
+
+## Final thoughts
+
+[Conclusion goes here]
