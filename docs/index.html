@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="https://wgminer.github.io/blog/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/blog/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/blog/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/blog/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/blog/">Home</a>
+        
+          <a class="main-nav-link" href="/blog/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/blog/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://wgminer.github.io/blog"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-sass-mixin-and-variables-as-reference" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/2021/04/21/sass-mixin-and-variables-as-reference/" class="article-date">
+  <time class="dt-published" datetime="2021-04-21T17:42:42.730Z" itemprop="datePublished">2021-04-21</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://wgminer.github.io/blog/2021/04/21/sass-mixin-and-variables-as-reference/" data-id="cknrr3yos0001yes0hfd0hfxb" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-structuring-design-at-2u" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/2021/04/21/structuring-design-at-2u/" class="article-date">
+  <time class="dt-published" datetime="2021-04-21T17:42:42.730Z" itemprop="datePublished">2021-04-21</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="How-the-design-team-at-2U-runs"><a href="#How-the-design-team-at-2U-runs" class="headerlink" title="How the design team at 2U runs"></a>How the design team at 2U runs</h1><p>As far as I can tell, there aren’t many books or blog posts written about how to run a design team. Some of the luminaries in this industry have written about what <em>makes</em> for a good team. Yet, what the real day-to-day looks like must be some trade secret. </p>
+<p>I’m going to be different though. In this post I’m going to talk about I run the UX team at 2U. I’m doing this for two reasons:</p>
+<ol>
+<li><p>I want to have a record for how I run things <em>now</em> so that in the future, I can look back and see how things have or have not changed (who am I kidding things will <em>definitely</em> change).</p>
+</li>
+<li><p>When I was a new design manager I desperately needed something like this. It took 18 months for us to iterate our process to the point where things were starting to consistently work. If I had been able to see how another manager did things, it might not have taken so long.  </p>
+</li>
+</ol>
+<p>Now that that’s out of the way let’s get into it.</p>
+<h1 id="Some-background-on-the-company"><a href="#Some-background-on-the-company" class="headerlink" title="Some background on the company"></a>Some background on the company</h1><p>2U was founded in 2008 and has three main offices. For the purposes of this article what you need to know is that all of the engineering and product development occur in NYC. We have a designer to developer ratio of about 4:1 and each product team has it’s own product manager and business analyst. The UX team has only existed for about 2.5 years and I’ve been running it for a little over two of those. </p>
+<h2 id="Who-does-what"><a href="#Who-does-what" class="headerlink" title="Who does what"></a>Who does what</h2><p>One of the most important parts of structuring a team is answering the question: “who does what”. When I took over the team, we operated as a <em>UX As A Service</em> team. That is to say, product managers would come to us and request design resources on an as-needed basis. We operated independently of the the development sprints and sat together in our beautifully appointed UX niche. This arrangement lasted for about 18 months but ultimately failed.</p>
+<p>Learning from our mistakes, we’ve switched to having designers assigned to an individual product team. Taking borrowing heavily from Spotify’s organizational structure, each  team operates like its own mini-startup. Each team typically consists of 4-5 Engineers, 1-2 designers, a product manager, and a business analyst. Ideally, the whole team is seated within earshot of each other, and the team spends the majority of the time working and meeting amongst themselves.</p>
+<h3 id="Why-this-arrangement-works-for-us"><a href="#Why-this-arrangement-works-for-us" class="headerlink" title="Why this arrangement works for us"></a>Why this arrangement works for us</h3><p>First, it allows designers to get familiar with and own the product they’re designing. At 2U, our products often serve different user personas - From an adjunct professor, to prospective students, to student support specialist. Each of these groups has different needs and expectations from a UI and thus requires different design patterns. Additionally, when a designer can stick with a product through several release cycles they see the successes and failures of their work and can grow from it.</p>
+<p>Second, it lets product managers call the shots. The main job of the product manager is to own and be accountable for a product’s performance. To do be effective, the PM needs to have access to the human resources that’ll actually build the product (eg. designers and devs). By <em>giving</em> a designer to a product team you give the PM the tools to do their job. This means: </p>
+<ul>
+<li>No more negotiating about resources. If a PM wants something designed they have a person dedicated to do it. </li>
+<li>No more arguing about when designers should be involved. Because they’re on the team, they’re implicitly involved at all stages.</li>
+<li>Designers can contribute to things beyond design. Designers tend to be fantastic consensus builders and can drive the discussion of a feature through their sketches/wireframes/prototypes. </li>
+</ul>
+<p>Third, it allows the product team to gel and be more agile. When design is a cryptic process that occurs away from the construction of the product. The static team members (PM, engineer, etc) will seldom develop empathy for the hard work that goes into getting a design <em>just</em> right. Additionally, when designers are within earshot, they can easily pair with an engineer and make quick decisions about how the UI should work. This results in less documentation and more conversation. </p>
+<h2 id="Keeping-the-team-together"><a href="#Keeping-the-team-together" class="headerlink" title="Keeping the team together"></a>Keeping the team together</h2><p>Having your designer’s distributed has it’s own challenges though. One of the biggest is maintaining cohesion - both culturally and visually. Being the lone designer is a difficult role to play. It demands confidence in your abilities and the communication skills to explain your work to non-designers. </p>
+<p>This is challenging as a manager because, you need to ensure that the company’s suite of products has a consistent look and feel, despite being designed by different people. And also, building a <em>culture</em> of design is challenging when designer-to-designer interaction isn’t a given. </p>
+<p>We try to build <em>design team cohesion</em> through a few recurring activities. I’ll talk about these in-depth in other posts, but briefly, we hold:</p>
+<ul>
+<li><em>Daily stand-up</em> to announce what each person is working on for the day and seek design pairing partners if needed</li>
+<li><em>Weekly Chapter</em> to discuss our practice as designers, the industry, and our place in the company</li>
+<li><em>Bi-Monthly Design Review</em> to elicit design feedback from the team and explain our process on individual projects.</li>
+<li><em>Monthly Team Lunch</em> because its a great way to get to know each other outside of the context of work…also food , especially food paid for by the company is <em>awesome</em>.</li>
+</ul>
+<h2 id="What’s-the-role-of-the-“Director”"><a href="#What’s-the-role-of-the-“Director”" class="headerlink" title="What’s the role of the “Director”"></a>What’s the role of the “Director”</h2><p>This is still a hard question for me but something many new managers struggle with. “Do I just delegate things to other people now?” Blah. “Do I still get to make things?” “How much say do I get over my what my team creates?”. </p>
+<p>I’m still not settled on the topic, but I have landed on a few things: </p>
+<p>First, building and <em>maintaining</em> a kickass team is the top priority. Your value to the company is that you can keep these fickle bunch of “creative types” happy and coming to work everyday. </p>
+<p>Second, you’re responsible for evangelizing good design within the company. That may sound like lame consultant-speak, but someone has to stick up for good design and the user’s experience.</p>
+<p>Third, there will always be cross-product work to scratch your creative itch. Even though most of the design work exists on the product level, frequently, a project will span several teams. As the director who sees across everything, you’re uniquely suited to handling these types of tasks.</p>
+<h2 id="Final-thoughts"><a href="#Final-thoughts" class="headerlink" title="Final thoughts"></a>Final thoughts</h2><p>[Conclusion goes here]</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://wgminer.github.io/blog/2021/04/21/structuring-design-at-2u/" data-id="cknrr3yow0003yes0hsq1bskm" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-thoughts-on-accessibility" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/2021/04/21/thoughts-on-accessibility/" class="article-date">
+  <time class="dt-published" datetime="2021-04-21T17:42:42.730Z" itemprop="datePublished">2021-04-21</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Thoughts-on-accessibility"><a href="#Thoughts-on-accessibility" class="headerlink" title="Thoughts on accessibility"></a>Thoughts on accessibility</h1><h2 id="1-With-enough-planning-most-of-the-issues-are-preventable"><a href="#1-With-enough-planning-most-of-the-issues-are-preventable" class="headerlink" title="1. With enough planning most of the issues are preventable"></a>1. With enough planning most of the issues are preventable</h2><h2 id="2-The-bar-is-embarrassingly-low"><a href="#2-The-bar-is-embarrassingly-low" class="headerlink" title="2. The bar is embarrassingly low"></a>2. The bar is embarrassingly low</h2><h2 id="3-Compared-to-other-orgs-we’re-pretty-far-ahead"><a href="#3-Compared-to-other-orgs-we’re-pretty-far-ahead" class="headerlink" title="3. Compared to other orgs we’re pretty far ahead"></a>3. Compared to other orgs we’re pretty far ahead</h2>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://wgminer.github.io/blog/2021/04/21/thoughts-on-accessibility/" data-id="cknrr3yow0004yes03nm18vsr" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-ux-team-cadence" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/2021/04/21/ux-team-cadence/" class="article-date">
+  <time class="dt-published" datetime="2021-04-21T17:42:42.730Z" itemprop="datePublished">2021-04-21</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Cadence-of-a-Design-Team"><a href="#Cadence-of-a-Design-Team" class="headerlink" title="Cadence of a Design Team"></a>Cadence of a Design Team</h1><p>I’ve found that consistency and predictability are hugely important aspects of managing a healthy team. On the UX team at 2U we have several recurring activities that punctuate our time at work. In this article, I’ll detail each of them.</p>
+<h2 id="Things-we-do"><a href="#Things-we-do" class="headerlink" title="Things we do"></a>Things we do</h2><p>Currently, (21-04-2016) we have four activities </p>
+<h3 id="Stand-up-Daily"><a href="#Stand-up-Daily" class="headerlink" title="Stand-up (Daily)"></a>Stand-up (Daily)</h3><p>If you’ve work on an Agile team before you probably already know what this is. For those that don’t its a quick (&lt;10m) meeting where each person <em>very</em> briefly talks about what they’re working on that day and elicits any help from the larger team. </p>
+<h4 id="Why-we-do-it"><a href="#Why-we-do-it" class="headerlink" title="Why we do it"></a>Why we do it</h4><ol>
+<li>As the manager, I like stand-up because it keeps me abreast of what everyone is doing and gives me a heads-up about any conversations I need to have that day.</li>
+<li>For the ICs it caps off their day and gives a consistent time to arrive in the office by.  </li>
+<li>Also, because we often make use of <a href="">Pivotal Labs style design paring</a> it’s where people typically request a pairing partner.</li>
+<li>Finally, because we all work on different product teams seeing all the other UX people each morning keeps the team feeling intact. </li>
+</ol>
+<h4 id="Keys-to-success"><a href="#Keys-to-success" class="headerlink" title="Keys to success"></a>Keys to success</h4><ul>
+<li><em>Keep it short and on task</em> Because we do standup everyday its hard to ignore when it’s not going well or taking too much time. Especially when you’re just getting started, having someone to gather quorum, cut-off ramblers (you know who you are!), and keep the group on task is really important.</li>
+<li><em>Be on time</em> Standup is so short that being 5 minutes late can double the length of the meeting. Build a culture of being on time, every time. Also, if necessary start without tardy folks.  </li>
+</ul>
+<h3 id="Chapter-Weekly"><a href="#Chapter-Weekly" class="headerlink" title="Chapter (Weekly)"></a>Chapter (Weekly)</h3><p>The idea for this meeting is lovingly stolen from Spotify and their Pod, Chapter, and Guild team structure. I’ve never worked at Spotify so I don’t know exactly how it works there but at 2U, Chapter is a ~90-120 minute meeting we have once a week where we discuss our practice as designers, the larger industry, and our place in the company.</p>
+<h4 id="Why-we-do-it-1"><a href="#Why-we-do-it-1" class="headerlink" title="Why we do it"></a>Why we do it</h4><ol>
+<li>You need time to have a really great discussion. Our stand-up is keep intentionally terse so to balance it, we created chapter.</li>
+<li>It’s a forum to have meta conversations about team process and strategy. As a creatively new group at 2U, we’re still working on</li>
+<li>Chapter creates a consistent place to announce (and then discuss) major events. Recently, our department merged with another one. Chapter was the perfect place to both announce it and then have a through discussion about what I meant for us. </li>
+<li>Often, the only other person who can empathize with you as a designer is another designer. Chapter is a safe space for the team to vent and share advice. For me as a new manager, this is a boon because there’s a <em>ton</em> of things I’ve never dealt with before and situations I don’t have a good solution to.</li>
+<li>Finally, as with stand-up, Chapter brings the team together and maintains our sense of cohesion. </li>
+</ol>
+<h4 id="Keys-to-success-1"><a href="#Keys-to-success-1" class="headerlink" title="Keys to success"></a>Keys to success</h4><ul>
+<li><em>Keep an agenda</em> Time is valuable and devoting over an hour to a non-design/coding activity gets expensive. Make sure there is a clear organizer to the meeting and try to always have a loose agenda to follow. Typically I send out a “call for topics” email the two days before the meeting. </li>
+<li><em>Don’t be afraid to cut it short</em> Some weeks there really isn’t anything to talk about. Don’t be afraid to cancel the meeting</li>
+</ul>
+<h3 id="Design-Review-Bi-Weekly"><a href="#Design-Review-Bi-Weekly" class="headerlink" title="Design Review (Bi-Weekly)"></a>Design Review (Bi-Weekly)</h3><p>Design Review</p>
+<p>Setup (5 min)</p>
+<ul>
+<li>Define experience</li>
+<li>Users of design</li>
+<li>Goals of design</li>
+</ul>
+<p>Presentation by designer</p>
+<ul>
+<li>People take notes</li>
+</ul>
+<p>Feedback discussion</p>
+<h3 id="Team-Lunch-Monthly"><a href="#Team-Lunch-Monthly" class="headerlink" title="Team Lunch (Monthly)"></a>Team Lunch (Monthly)</h3><p>This one should be pretty self-explanatory. Food is awesome. Free food is even better. We have a team lunch to engage with each other on a personal level. We intentionally don’t set an agenda for this and just let some organic discussion occur. Let time I think we talked about </p>
+<h3 id="UX-State-of-the-Union-Twice-a-year"><a href="#UX-State-of-the-Union-Twice-a-year" class="headerlink" title="UX State of the Union (Twice a year)"></a>UX State of the Union (Twice a year)</h3><h2 id="Things-we-used-to-do"><a href="#Things-we-used-to-do" class="headerlink" title="Things we used to do"></a>Things we <em>used</em> to do</h2><p>A good portfolio shows the process of getting to the final design. Similarly, I want to end this post with a look back at all the activities that just didn’t work out:</p>
+<h3 id="“Learning-Day”-Monthly-ish"><a href="#“Learning-Day”-Monthly-ish" class="headerlink" title="“Learning Day” (Monthly-ish)"></a>“Learning Day” (Monthly-ish)</h3><p>This was a monthly day where we’d put aside whatever “work” projects we were on a set out to learn or explore some new skill. If you couldn’t tell, this was inspired by Google’s 80/20 time. </p>
+<h4 id="Why-it-didn’t-work"><a href="#Why-it-didn’t-work" class="headerlink" title="Why it didn’t work"></a>Why it didn’t work</h4><p>Two reasons: First, we were constantly rescheduling it around project deadlines. When your team is distributed across a number of different products finding a day where no-one is pushing towards some deadline is nearly impossible. Second, giving just one day to “learning” is pretty crappy. Learning is something that should be happening continuously. Also, if you’re really passionate about learning something waiting for a codified day at work isn’t realistic.</p>
+<h3 id="Show-and-tell-board-Weekly"><a href="#Show-and-tell-board-Weekly" class="headerlink" title="Show and tell board (Weekly)"></a>Show and tell board (Weekly)</h3><p>For this, each week - typically on Friday - we would print and hang at least one thing we worked on the previous week. This activity was part of an effort to communicate what we do to the rest of the tech department.</p>
+<h4 id="Why-it-didn’t-work-1"><a href="#Why-it-didn’t-work-1" class="headerlink" title="Why it didn’t work"></a>Why it didn’t work</h4><p>The first mistake was that we decided to do it on Friday afternoon. This was a problem because Fridays at 2U NYC aren’t exactly the most productive days. We do a big team lunch which leaves everyone a bit sleepy and then end things with a big social beer thing, starting around 330/400. Getting anything from anyone after around noon is a chore.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://wgminer.github.io/blog/2021/04/21/ux-team-cadence/" data-id="cknrr3yox0005yes0f18l7dlk" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-bem-less-extend" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/2021/04/21/bem-less-extend/" class="article-date">
+  <time class="dt-published" datetime="2021-04-21T17:42:42.729Z" itemprop="datePublished">2021-04-21</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://wgminer.github.io/blog/2021/04/21/bem-less-extend/" data-id="cknrr3yom0000yes0966e2bqt" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-new-manager-lessons" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/2021/04/21/new-manager-lessons/" class="article-date">
+  <time class="dt-published" datetime="2021-04-21T17:42:42.729Z" itemprop="datePublished">2021-04-21</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Lessons-from-a-new-manager-on-a-new-team"><a href="#Lessons-from-a-new-manager-on-a-new-team" class="headerlink" title="Lessons from a new manager on a new team"></a>Lessons from a new manager on a new team</h1><p>If you’ve never done it before, managing other people is a terrifying prospect. As an individual contributor, you could get by just being awesome all by yourself. Now, everyone has to be awesome <em>with</em> you…crap. Then, as is often the case, you’re the new manager of a new <em>team</em> too. Double crap. What’s your team’s place in the company? What work do you do? What’re you inchange of? I’ll share some of my own</p>
+<h2 id="1-Get-a-support-structure-ASAP"><a href="#1-Get-a-support-structure-ASAP" class="headerlink" title="1. Get a support structure ASAP"></a>1. Get a support structure ASAP</h2><p>Going it alone probably comes natural to you. After all, you probably got promoted because you were better at your job (at least in your manager’s eyes) than someone else.</p>
+<h2 id="2-Understand-the-business-value-of-you-and-your-team"><a href="#2-Understand-the-business-value-of-you-and-your-team" class="headerlink" title="2. Understand the business value of you and your team"></a>2. Understand the business value of you and your team</h2><p>Why do managers even exist? This is something I and many new managers wrestle with. This question is particularly hot in the org strategy instrudyt and the main points tend to be</p>
+<blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatum porro dicta illum quam voluptatem! Accusantium consequatur, veritatis sapiente recusandae veniam excepturi vel similique modi rerum facilis, autem quae animi.</p>
+</blockquote>
+<p>For me, understanding <em>why</em> I was important helped silence the demons of feeling irrelevant or in the way.</p>
+<p>For a new team this is doubly important. When working with new people who don’t “get it”, you’ll need a flawless pitch to quickly get them up to speed on the importance of your team.</p>
+<h2 id="Proximity-solves-a-lot-of-problems"><a href="#Proximity-solves-a-lot-of-problems" class="headerlink" title="Proximity solves a lot of problems"></a>Proximity solves a lot of problems</h2><p>I don’t mean remote vs on site. I mean sitting with the engieers vs sitting in the “design team area”. On first look, having all your designers in one place in the office seems great. Everyone can collaborate easily, team cohesion grows, and as a manager you can keep an eye on what people are doing.</p>
+<p>The downfall occurs when your team has to work with other people…which is always. Ultimately the designers don’t ship anything. It’s up to your engineers to actually build the designs you create. Thus keeping the designers in the trenches 1. builds the designer-developer relationship and empathy for both roles 2. better ensures someone sees the <em>finished</em> product before it goes into production.</p>
+<h2 id="Figuring-out-where-PMing-ends-and-Designing-begins-is-hard"><a href="#Figuring-out-where-PMing-ends-and-Designing-begins-is-hard" class="headerlink" title="Figuring out where PMing ends and Designing begins is hard"></a>Figuring out where PMing ends and Designing begins is hard</h2><h2 id="Build-a-team-for-longevity"><a href="#Build-a-team-for-longevity" class="headerlink" title="Build a team for longevity"></a>Build a team for longevity</h2><h2 id="Have-a-researcher"><a href="#Have-a-researcher" class="headerlink" title="Have a researcher"></a>Have a researcher</h2><p>Designers are great. They’re the swiss-army knife of the product team -<br>Stakeholders all have their own competing priorities. If your goal is to do right by your users, research is your weapon to compete with the other voices business, engineering, etc.</p>
+<h2 id="If-you-love-your-designs-set-them-free"><a href="#If-you-love-your-designs-set-them-free" class="headerlink" title="If you love your designs, set them free!"></a>If you love your designs, set them free!</h2><p>Lots has been written about managing existing design team, however what happens when you’re scaling rapidly and all of a sudden you’re now a design manager instead of <em>just</em> a designer.</p>
+<p>For me, managing designers has been about letting go. When working on a product team I used to sweat every detail and fight with PMs and Engineers to get things just right. When managing other designers this is a recipe for failure. It’s ok if your designers have a different process or different aesthetic preferences. In fact that’s often a positive. Being a good design manager is about separating a sound design solutions from your personal taste.</p>
+<h2 id="Go-on-vacation"><a href="#Go-on-vacation" class="headerlink" title="Go on vacation"></a>Go on vacation</h2><ul>
+<li>It allows your team breathing room</li>
+<li>It allows strong performers to step-up in your absence</li>
+<li>It allows the team to work together without your oversight which reduces the need for micromanagement</li>
+</ul>
+<h2 id="Stories-are-interesting"><a href="#Stories-are-interesting" class="headerlink" title="Stories are interesting"></a>Stories are interesting</h2><p>-</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://wgminer.github.io/blog/2021/04/21/new-manager-lessons/" data-id="cknrr3yov0002yes0388ghjp4" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/blog/2021/04/21/hello-world/" class="article-date">
+  <time class="dt-published" datetime="2021-04-21T16:49:49.808Z" itemprop="datePublished">2021-04-21</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/blog/2021/04/21/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://wgminer.github.io/blog/2021/04/21/hello-world/" data-id="cknroz7hd000087s02klleyxt" data-title="Hello World" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2021/04/">April 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/blog/2021/04/21/sass-mixin-and-variables-as-reference/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2021/04/21/structuring-design-at-2u/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2021/04/21/thoughts-on-accessibility/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2021/04/21/ux-team-cadence/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2021/04/21/bem-less-extend/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/blog/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/blog/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
